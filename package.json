@@ -16,5 +16,8 @@
     "url": "https://github.com/Seb005/gmail-api-gpt/issues"
   },
   "homepage": "https://github.com/Seb005/gmail-api-gpt#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
 }

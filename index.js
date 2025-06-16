@@ -19,8 +19,7 @@ app.get('/auth', async (req, res) => {
     scope: ['https://www.googleapis.com/auth/gmail.readonly'],
     prompt: 'consent'
   });
-  await open(url);
-  res.send('Redirigé vers Google...');
+  res.redirect(url);
 });
 
 // Étape 2 : Recevoir le code de Google et obtenir le token

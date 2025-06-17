@@ -36,7 +36,7 @@ app.get('/emails', async (req, res) => {
 
   const response = await gmail.users.messages.list({
     userId: 'me',
-    maxResults: 5
+    maxResults: 50
   });
 
   const emails = await Promise.all(
